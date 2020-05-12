@@ -1,0 +1,178 @@
+:root{
+	--primary: #0b254b;
+	--light: #ffffff;
+	--light-blue: #F5F6FA;
+	--grey: #eff2f7;
+}
+
+body{
+	font-family: 'Muli', sans-serif;	
+}
+
+h1, h2, h3, h4, h5, h6{
+	color: var(--primary);
+	font-weight: 700;
+}
+
+.bg-light{
+	background-color: var(--light) !important;
+}
+
+.bt-light-blue{ background-color: var(--light-blue); }
+
+.bg-primary {
+	background-color: rgba(0, 123, 255, .1) !important;
+}
+
+.btn-primary{
+	background-color: rgba(0, 123, 255, .1) !important;
+	border: 0;
+}
+
+#sidebar-container{
+	min-height: 100vh;
+	margin-left: -18rem; 
+	transition: margin .25s ease-in-out;
+}
+
+#sidebar-container .logo{
+	padding: 0.875rem 1.25rem;
+	font-size: 1.2rem;
+}
+
+#sidebar-container .menu {
+	width: 18rem;
+}
+
+#content-wrapper.toogled #sidebar-container {
+	margin-left: 0;
+}
+
+.shadow-sm {
+	box-shadow: 0 0 1.25rem rgba(11, 37, 75, .05);
+}
+
+.shadow-hover {
+	transition: 1s ease-in-out;
+}
+
+.shadow-hover:hover {
+	transition: 1s ease-in-out;
+	box-shadow: 0 .5rem 1rem rgba(11, 37, 75, .10);
+}
+
+.circle {
+	width: 50px;
+	height: 50px;
+}
+
+.avatar {
+	max-width: 35px;
+}
+
+.badge {
+	padding: .5rem 1rem;
+}
+
+.badge-primary {
+	background-color: rgba(0, 123, 255, .1) !important;
+}
+
+.badge-secondary {
+	background-color: var(--grey);
+	color: var(--primary);
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0 .5rem;
+}
+
+table tbody tr {
+	background-color: var(--light);
+}
+
+table thead th {
+	border:0 !important;
+
+}
+
+table tbody td {
+	border-top: 0; !important;
+	line-height: 1.2;
+}
+
+@media (min-width: 768px) {
+	#sidebar-container{
+		margin-left: 0;
+	}
+	#page-container {
+		min-width: 0;
+		width: 100%;
+	}
+	#content-wrapper.toogled #sidebar-container {
+		margin-left: -18rem;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*====================
+        SCROOL
+====================*/
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+/*====================
+
+====================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
